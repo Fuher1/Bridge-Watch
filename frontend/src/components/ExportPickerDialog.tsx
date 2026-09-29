@@ -324,7 +324,7 @@ export default function ExportPickerDialog({
               type="button"
               onClick={onClose}
               className="rounded-full border border-stellar-border bg-stellar-dark/90 p-2 text-stellar-text-secondary transition-colors hover:bg-stellar-border hover:text-white"
-              aria-label="Close export dialog"
+              aria-label="Close"
             >
               ×
             </button>
