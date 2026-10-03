@@ -8,6 +8,8 @@ import {
   type DashboardFilters,
 } from "../hooks/useDashboardFilters";
 import { usePullToRefresh } from "../hooks/usePullToRefresh";
+import { useDashboardLayout } from "../hooks/useDashboardLayout";
+import DashboardLayoutCustomizer from "../components/dashboard/DashboardLayoutCustomizer";
 import BridgeStatusCard from "../components/BridgeStatusCard";
 import WatchlistWidget from "../components/watchlist/WatchlistWidget";
 import ExternalDependencyPanel from "../components/dashboard/ExternalDependencyPanel";
